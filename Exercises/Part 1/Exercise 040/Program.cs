@@ -20,22 +20,20 @@ namespace exercise_40
             {
                 break;
             }
-
-            if  (number < 0)
+            // 0 Breaks
+            if  (number != 0)
             {
             sum1 = sum1 + 1;
             }
-
-            
-            Console.WriteLine("Total amount of numbers: " + sum1);
-
+            //increases amount
             if  (number != 0)
             {
             sum2 = sum2 + number;
             }
-
+            //counts total sum
             }
             Console.WriteLine("Total sum of numbers: " + sum2);
+            Console.WriteLine("Total amount of numbers: " + sum1);
             }
     }
   }
