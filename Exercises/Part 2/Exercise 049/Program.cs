@@ -1,18 +1,21 @@
-﻿using System;
+﻿
+using System;
 
 namespace exercise_49
 {
   class Program
   {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
       // Call your method here:
- 
+           Console.WriteLine("In a hole in the ground there lived a method");
     }
 
     // Write your method here:
-    public static void PrintPhrase() {
-
+    public static void PrintPharse()
+    {
+        PrintPharse();
+    }
+            
     }
   }
-}
