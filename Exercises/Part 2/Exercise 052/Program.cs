@@ -6,7 +6,9 @@ namespace exercise_52
   {
     public static void Main(String[] args)
     {
-      PrintFromNumberToOne(5);
+      
+            int num = Convert.ToInt32(Console.ReadLine());
+            PrintFromNumberToOne(num);
     }
 
     public static void PrintFromNumberToOne(int number)
