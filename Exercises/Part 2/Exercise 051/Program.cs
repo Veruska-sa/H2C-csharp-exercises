@@ -4,14 +4,21 @@ namespace exercise_51
 {
   class Program
   {
-    public static void Main(String[] args)
-    {
-      // Call your method here:
+        public static void Main(string[] args) 
+        {
+            PrintUntilNumber(5);
+        }
 
-
-    }
-
-    // Write your method here:
-
+        public static void PrintUntilNumber(int number) 
+        {
+        int laskuri = 1;
+        
+        do
+        {
+            Console.WriteLine(laskuri);
+            laskuri++;
+        }
+        while (laskuri <= number);
+        }
   }
 }
