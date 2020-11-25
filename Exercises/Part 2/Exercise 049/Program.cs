@@ -8,13 +8,13 @@ namespace exercise_49
     static void Main(string[] args)
     {
       // Call your method here:
-           Console.WriteLine("In a hole in the ground there lived a method");
+          PrintPharse(); 
     }
 
     // Write your method here:
     public static void PrintPharse()
     {
-        PrintPharse();
+        Console.WriteLine("In a hole in the ground there lived a method");
     }
             
     }
