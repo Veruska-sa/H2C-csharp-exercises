@@ -6,11 +6,27 @@ namespace exercise_54
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
-
+      DivisibleByThreeInRange(2, 10);
     }
 
     // Write your method here:
+    public static void DivisibleByThreeInRange(int beginning, int end)
+    {
+        int i = beginning;
+        while ( i <= end )
+        {
+                i++;
+                
+                if (i % 3 == 0)
+                {
+                Console.WriteLine(i);    
+                }
+        }
 
+
+    } //BOOM!! Ihan itse tein ilman apuja!! JES!!
   }
+
 }
+        
+       
