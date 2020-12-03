@@ -17,7 +17,17 @@ namespace exercise_69
         }
         list.Add(input);
       }
+      Print(list);
+    }
+
+    public static void Print(List<int> list)
+    {
+        foreach (int value in list)
+        {
+            Console.WriteLine()
+        }
+    }
 
     }
   }
-}
+

@@ -17,6 +17,16 @@ namespace exercise_70
         }
         list.Add(input);
       }
+        int smallest = list[0];
+
+        for(int i = 0; i < list.Count; i++) {
+        int number = list[i];
+        if (smallest < number) {
+        smallest = number;
+    }
+}
+
+        Console.WriteLine("The grEatest number: " + smallest);
     }
   }
 }
