@@ -16,18 +16,27 @@ namespace exercise_69
           break;
         }
         list.Add(input);
-      }
-      Print(list);
-    }
-
-    public static void Print(List<int> list)
-    {
-        foreach (int value in list)
-        {
-            Console.WriteLine()
         }
-    }
+        
+        Console.WriteLine("From where?");
+        int from = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Where to?");
+        int to = Convert.ToInt32(Console.ReadLine());
+
+            foreach (int value in list)
+                {
+                if(value > from && value < to)
+                {
+                    Console.WriteLine(value);
+                }
+                    
+                }
+            
+        }
+
 
     }
-  }
+
+
+    }
 
