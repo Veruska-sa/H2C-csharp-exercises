@@ -17,6 +17,8 @@ namespace exercise_71
         }
         list.Add(input);
       }
+      Console.WriteLine("Search for?");
+
 
     }
   }
