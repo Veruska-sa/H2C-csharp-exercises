@@ -7,7 +7,13 @@ namespace exercise_75
   {
     public static void Main(string[] args)
     {
-
+        List<int> numbers = new List<int>();
+        numbers.Add(3);
+        numbers.Add(2);
+        numbers.Add(6);
+        numbers.Add(-1);
+        numbers.Add(5);
+        numbers.Add(1);
 
       // Example method calls for testing your method.
       // List<int> numbers = new List<int>();
@@ -20,7 +26,18 @@ namespace exercise_75
       PrintNumbersInRange(numbers, 3, 10);
     }
 
+    public static void PrintNumbersInRange(List<int> numbers, int lowerLimit, int upperLimit)
+    {
+             foreach(int number in numbers)
+             {
+             if (lowerLimit <= number && number <= upperLimit) 
+             {
+             Console.WriteLine(number);
+             }
+        
+    }
+
     }
   }
-}
+    }
 
