@@ -24,8 +24,11 @@ namespace exercise_78
       Console.WriteLine("");
 
       // Implement here
-      // asking for the two indices
+     Console.WriteLine("Give two indices to swap: ")
+        int first = Console.ReadLine();
+        int second = Console.ReadLine();
       // and then swapping them
+        if 
 
 
       // DO NOT CHANGE THE FOLLOWING CODE!
