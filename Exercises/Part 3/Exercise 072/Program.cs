@@ -29,10 +29,14 @@ namespace exercise_72
 
         Console.WriteLine("The smallest number: " + smallest);
 
-        int index = list.FindIndex(a => a == smallest);
-        if (index != -1)
+        for(int i = 0; i < list.Count; i++ )
         {
-            Console.WriteLine("Found at index: " + index);
+            if(list[i] == smallest)
+            {
+            Console.WriteLine("Found at index " + i);
+
+            }
+
         }
 
     }
