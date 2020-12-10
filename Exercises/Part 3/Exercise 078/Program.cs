@@ -24,11 +24,14 @@ namespace exercise_78
       Console.WriteLine("");
 
       // Implement here
-     Console.WriteLine("Give two indices to swap: ")
-        int first = Console.ReadLine();
-        int second = Console.ReadLine();
-      // and then swapping them
-        if 
+        Console.WriteLine("Give two indices to swap");
+        int positionx = Convert.ToInt32(Console.ReadLine());
+       int positiony = Convert.ToInt32(Console.ReadLine());
+
+        int temp = array[positionx];
+        array[positionx] = array[positiony];
+        array[positiony] = temp;
+        
 
 
       // DO NOT CHANGE THE FOLLOWING CODE!
