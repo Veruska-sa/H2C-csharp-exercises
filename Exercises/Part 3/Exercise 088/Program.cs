@@ -7,6 +7,9 @@ namespace exercise_88
   {
     public static void Main(string[] args)
     {
+            string userstring = Console.ReadLine();
+            string[] pieces = userstring.Split(' ');
+            Console.WriteLine(pieces[0]);
 
     }
   }
