@@ -15,8 +15,23 @@ namespace exercise_82
 
     public static void PrintArrayInStars(int[] array)
     {
-
+    Console.WriteLine("the elements of the array are: ");
+    int index = 0;
+    while (index < array.Length)
+    {
+    int number = array[index];
+    int i = 0;
+    while (i < number)
+    {
+    Console.Write("*");
+    i++;
     }
+    Console.WriteLine("");
+    index = index + 1;
+    }
+
+
   }
-}
+        }
+    }
 
