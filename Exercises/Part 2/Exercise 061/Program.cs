@@ -6,23 +6,63 @@ namespace exercise_61
   {
      public static void Main(String[] args)
      {
-        int korkeus = Convert.ToInt32(Console.ReadLine());
-        for (int i = 0; i <= korkeus; i++) // looppi riveille
+            //PrintStars(1);
+            //PrintSpaces(1);
+            //PrintRightTriangle(4);
+            ChristmasTree(10);
+    }
+
+    public static void PrintStars(int number)
+    {
+            int i = 0;
+
+            while (i < number)
             {
-                for (int j=0; j<(korkeus-i); j++) // tyhjiä
-                {
-                Console.Write(" ");
-                }
-                    for (int k = 0; k < (i*2)-1; k++) // tahtiä
-                    {
-                    Console.Write("*");
-                    }
-             Console.WriteLine(""); // rivin vaihto
-
+                Console.Write("*");
+                i++;
             }
+            Console.WriteLine("");
+    }
 
+    public static void PrintSpaces(int number)
+    {
+            int i = 0;
 
-     }
+            while (i < number)
+            {
+                Console.Write(" ");
+                i++;
+            }
+    }
+
+    public static void PrintRightTriangle(int size)
+    {
+            for (int i = 1; i <=size; i++)
+            {
+                PrintSpaces(size-i);
+                PrintStars(i);
+            }
+    }
+
+    public static void ChristmasTree(int height)
+    {
+         int sizeLeft = height - 1;
+         int rowStars = 1;
+         for (int i = 1; i <= height; i++)
+         {
+         PrintSpaces(sizeLeft);
+         PrintStars(rowStars);
+         sizeLeft--;
+         rowStars += 2;
+         }
+         int footSpaces = height - 2;
+         for (int x = 0; x < 2; x++)
+         {
+         PrintSpaces(footSpaces);
+         PrintStars(3);
+ }
+ }
+
 
     }
   }
