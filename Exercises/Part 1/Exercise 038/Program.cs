@@ -11,7 +11,7 @@ namespace exercise_38
             while (true) 
             {
 
-            Console.WriteLine("Give a number");
+            Console.WriteLine("Give a number: ");
             int number = Convert.ToInt32(Console.ReadLine());
 
             if (number == 0) 
@@ -25,7 +25,7 @@ namespace exercise_38
             }
 
             }
-            Console.WriteLine("Total amount of numbers: " + sum);
+            Console.WriteLine("Total amount of negative numbers: " + sum);
 
     }
   }
