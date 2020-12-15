@@ -9,13 +9,9 @@ namespace exercise_85
     {
             string user1 = "alex sunshine";
             string[] pieces1 = user1.Split(' ');
-            Console.WriteLine(pieces1[0]);
-            Console.WriteLine(pieces1[1]);
 
             string user2 = "emma haskell";
             string[] pieces2 = user2.Split(' ');
-            Console.WriteLine(pieces2[0]);
-            Console.WriteLine(pieces2[1]);
 
             Console.WriteLine("Enter username:");
             string usernameinput = Console.ReadLine();
@@ -33,7 +29,7 @@ namespace exercise_85
                 }
             else
                 {
-                Console.WriteLine("incorrect username or password!");
+                Console.WriteLine("Incorrect username or password!");
                 }
 
 
