@@ -30,10 +30,10 @@ namespace exercise_75
     {
              foreach(int number in numbers)
              {
-             if (lowerLimit <= number && number <= upperLimit) 
-             {
-             Console.WriteLine(number);
-             }
+                if (lowerLimit <= number && number <= upperLimit) 
+                {
+                Console.WriteLine(number);
+                }
         
     }
 
