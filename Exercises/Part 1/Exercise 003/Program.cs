@@ -8,7 +8,7 @@ namespace exercise_03
         {
             Console.WriteLine("Once upon a time\n" +
             "I was falling in love\n" +
-            "Now I'm only falling apart")
+            "Now I'm only falling apart");
         }
     }
 }
