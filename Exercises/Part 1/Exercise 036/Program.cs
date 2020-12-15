@@ -8,7 +8,7 @@ namespace exercise_36
     {
         while (true) 
         {
-            Console.WriteLine("Give a number ");
+            Console.WriteLine("Give a number: ");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
             if ( num1 == 0 ) 
