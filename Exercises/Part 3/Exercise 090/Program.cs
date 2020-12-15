@@ -16,11 +16,11 @@ namespace exercise_90
             {
              string[] nameAndAge = input.Split(',');
 
-             int age = Convert.ToInt32(nameAndAge[1]);
-
+            int age = Convert.ToInt32(nameAndAge[1]);
             if (biggestAge < age)
             {
                 biggestAge = age;
+            }
             }
 
                 else
@@ -32,7 +32,6 @@ namespace exercise_90
 
         }
   }
-}
 }
 
 
