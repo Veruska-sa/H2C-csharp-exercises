@@ -6,7 +6,7 @@ namespace exercise_07
     {
         public static void Main(string[] args)
         {
-            Console.Write("Give input! ");
+            Console.WriteLine("Give input! ");
             string message = Console.ReadLine();
             Console.WriteLine(message);
             Console.WriteLine(message);
