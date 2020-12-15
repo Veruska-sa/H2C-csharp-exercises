@@ -24,10 +24,10 @@ namespace exercise_73
           int number = list[i];
           if (number != -1)
           {
-            sum= number;
+            sum = sum + number;
           }
         }
-        Console.WriteLine("Sum is: "+sum);
+        Console.WriteLine("Sum is: "+ sum);
         }
 
     }
