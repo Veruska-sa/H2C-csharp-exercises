@@ -13,8 +13,7 @@ namespace exercise_15
         int intValue = Convert.ToInt32(UserInput2);
             //Tähän asti toimii
         Console.WriteLine("Give a double: ");
-        string UserInput3 = Console.ReadLine();
-        double doubleValue = Convert.ToDouble(UserInput3);
+        double UserInput3 = Convert.ToDouble(Console.ReadLine()); //Toimii ,
             //Toimii
         Console.WriteLine("Give a boolean: ");
         string UserInput4 = Console.ReadLine();
