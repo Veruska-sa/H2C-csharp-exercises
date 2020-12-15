@@ -16,7 +16,7 @@ namespace exercise_32
 
                 else
                 {
-                Console.Write("They've got a cave troll! ");
+                Console.WriteLine("They've got a cave troll! ");
                 }
 
     }
