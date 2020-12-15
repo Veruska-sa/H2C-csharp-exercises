@@ -12,12 +12,12 @@ namespace exercise_33
             string second = Console.ReadLine();
             if (first == second)
             {
-            Console.WriteLine("Echo");
+            Console.WriteLine("Echo!");
             }
 
             else
             {
-            Console.WriteLine("Nope");
+            Console.WriteLine("Nope!");
             }
     }
   }
