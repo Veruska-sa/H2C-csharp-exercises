@@ -7,33 +7,32 @@ namespace exercise_90
   {
     public static void Main(string[] args)
     {
-
+        int biggestAge = 0;
 
         while (true)
         {
         string input = Console.ReadLine();
-        if (input == "")
-        {
-             break;
-        }
+            if (input != "")
+            {
+             string[] nameAndAge = input.Split(',');
 
-        string[] parts = input.Split(',');
-        int smallest = 0;
+             int age = Convert.ToInt32(nameAndAge[1]);
 
-        for(int i = 0; i < Convert.ToInt32(parts[1]); i++)
-        {
-        int number = smallest + Convert.ToInt32(parts[1]);
-        if (smallest < number)
-        smallest = number;
+            if (biggestAge < age)
+            {
+                biggestAge = age;
+            }
 
-        {
-            Console.WriteLine(smallest);
-        }
-        }
-        }
+                else
+                {
+                    Console.WriteLine("Age of the oldest: " + biggestAge);
+                    break;
+                }
+            }
 
-    }
+        }
   }
+}
 }
 
 
