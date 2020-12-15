@@ -27,13 +27,13 @@ namespace exercise_72
         }
         }
 
-        Console.WriteLine("The smallest number: " + smallest);
+        Console.WriteLine("Smallest number: " + smallest);
 
         for(int i = 0; i < list.Count; i++ )
         {
             if(list[i] == smallest)
             {
-            Console.WriteLine("Found at index " + i);
+            Console.WriteLine("Found at index: " + i);
 
             }
 
