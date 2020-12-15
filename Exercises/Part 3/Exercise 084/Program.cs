@@ -7,7 +7,7 @@ namespace exercise_84
   {
     public static void Main(string[] args)
     {
-    Console.WriteLine("Give a string:");
+    Console.Write("Give a string: ");
     string word = Console.ReadLine();
     string text = "true";
     if(word == text)
@@ -16,7 +16,7 @@ namespace exercise_84
                 }
     else
                 {
-                Console.WriteLine("Try again!");
+                Console.WriteLine("Try again! ");
             }
 
     }
