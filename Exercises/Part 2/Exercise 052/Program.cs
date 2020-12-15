@@ -7,8 +7,8 @@ namespace exercise_52
     public static void Main(String[] args)
     {
       
-            int num = Convert.ToInt32(Console.ReadLine());
-            PrintFromNumberToOne(num);
+
+            PrintFromNumberToOne(5);
     }
 
     public static void PrintFromNumberToOne(int number)
